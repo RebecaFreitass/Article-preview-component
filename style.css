@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "manrope-500";
+    src: url(manrope/static/Manrope-Medium.ttf);
+}
+@font-face {
+    font-family: "manrope-700";
+    src: url(manrope/static/Manrope-Bold.ttf);
+}
+body{
+    background-color:  hsl(212, 23%, 69%);
+}
+main{
+    display: flex;
+    align-items: center;
+    width: 60vw;
+    margin: auto;
+    border-radius: 0.5rem;
+    background-color: white;
+    margin-top: 3rem;
+}
+#img-drawers{
+    width: 23rem;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+.user-area img {
+    border-radius: 50%;
+    width: 4rem;
+}
+article{
+    padding: 1rem;
+}
+.user-area{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top:1rem;
+}
+article h1 {
+    margin-bottom: 1rem;
+    width: 80%;
+    font-family: "manrope-700";
+    font-size: 1.3rem;
+}
+.p{
+    width: 80%;
+    color: rgba(0, 0, 0, 0.56);
+    font-family: "manrope-500";
+    font-size: 0.9rem;
+}
+.user-area h3{
+    font-family: "manrope-700";
+    font-size: 0.9rem;
+}
+.user-area p{
+    font-family: "manrope-500";
+    font-size: 0.8rem;
+}
