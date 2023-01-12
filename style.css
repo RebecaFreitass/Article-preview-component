@@ -17,7 +17,7 @@ body{
 main{
     display: flex;
     align-items: center;
-    width: 60vw;
+    width: 50rem;
     margin: auto;
     border-radius: 0.5rem;
     background-color: white;
@@ -25,7 +25,7 @@ main{
     position: relative;
 }
 #img-drawers{
-    width: 26rem;
+    width: 27rem;
     border-radius: 0.5rem 0 0 0.5rem;
 }
 .user-area img {
@@ -107,4 +107,47 @@ article h1 {
     bottom: -1rem;
     right: 7rem;
     width: 1.5rem;
+}
+@media(max-width:936px){
+    .active-component {
+        right: 0rem;
+    }
+    #triangle {
+        right: 3rem;
+    }
+}
+@media (max-width:812px){
+    main {
+        flex-direction: column;
+        width: 27rem;
+    }  
+    #img-drawers {
+        width: 27rem;
+        border-radius: 0.5rem 0.5rem 0 0;
+    }  
+}
+@media (max-width:448px){
+    #img-drawers {
+        width: 19rem;
+    }
+    main {
+        width: 19rem;
+    }
+    article h1 {
+        font-size: 1rem;
+        width: 100%;
+    }
+    .p {
+        font-size: 0.7rem;  
+        width: 99%;
+    }
+    .bottom-items {
+        padding: 0px ;
+    }
+    #triangle {
+        right: 1rem;
+    }
+    .active-component {
+        bottom: 6rem;
+    }
 }
