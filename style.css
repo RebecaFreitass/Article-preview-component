@@ -22,9 +22,10 @@ main{
     border-radius: 0.5rem;
     background-color: white;
     margin-top: 3rem;
+    position: relative;
 }
 #img-drawers{
-    width: 23rem;
+    width: 26rem;
     border-radius: 0.5rem 0 0 0.5rem;
 }
 .user-area img {
@@ -59,4 +60,51 @@ article h1 {
 .user-area p{
     font-family: "manrope-500";
     font-size: 0.8rem;
+}
+.bottom-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem 0.5rem 0;
+}
+#img-share{
+    border-radius: 100%;
+    background-color: hsl(217, 19%, 35%);
+    width: 1.9rem;
+    padding: 0.4rem;
+    cursor: pointer;
+}
+.active-component {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    right: -4rem;
+    bottom: 7rem;
+    background-color: hsl(217, 19%, 35%);
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.5rem;
+    display: none;
+}
+.active-component p{
+    color: rgba(255, 255, 255, 0.324);
+    font-family: "manrope-500";
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    font-size: 0.7rem;
+    margin-right:0.5rem ;
+}
+.list-icons{
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.list-icons li{
+    cursor: pointer;
+}
+#triangle{
+    position: absolute;
+    bottom: -1rem;
+    right: 7rem;
+    width: 1.5rem;
 }
