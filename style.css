@@ -12,7 +12,7 @@
     src: url(manrope/static/Manrope-Bold.ttf);
 }
 body{
-    background-color:  hsl(212, 23%, 69%);
+    background-color:  hsl(210, 46%, 95%);
 }
 main{
     display: flex;
@@ -21,7 +21,7 @@ main{
     margin: auto;
     border-radius: 0.5rem;
     background-color: white;
-    margin-top: 3rem;
+    margin-top: 8rem;
     position: relative;
 }
 #img-drawers{
